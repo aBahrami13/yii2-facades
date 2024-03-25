@@ -1,0 +1,13 @@
+<?php
+
+namespace {{DummyNamespace}};
+
+use abahrami13\facades\Facade;
+
+class {{DummyClass}} extends Facade
+{
+    protected static function getFacadeAccessor()
+    {
+        return \Yii::$app->{{DummyAccessor}};
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "name": "abahrami13/yii2-facades",
+    "type": "yii2-extension",
+    "description": "Facades support for Yii 2 application components & classes like Laravel",
+    "homepage": "https://github.com/abahrami13/yii2-facades",
+    "keywords": [
+        "yii2-facades",
+        "yii2",
+        "yii",
+        "facades",
+        "facade",
+        "laravel"
+    ],
+    "authors": [
+        {
+            "name": "Ahmad Bahrami",
+            "email": "ahmad.bahrami@gmail.com"
+        }
+    ],
+    "version": "1.0.0",
+    "license": "MIT",
+    "require": {
+        "yii2/framework": "~2.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "abahrami13\\facades\\": "src/"
+        }
+    },
+    "extra": {
+        "yii2": ">=2.0.0"
+    }
+}
